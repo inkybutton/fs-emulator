@@ -33,4 +33,4 @@ Command List
 Extending/Adapting fs-emulator
 ===========
 Wow, really? Well, I'm glad it may be useful to you. The project is divided into entities(files and directories), links, persistence functions, and the shell.
-`MemoryNFS` is a in-memory implementation of persistence functions, which takes entities and stores them in memory. You can implement a disk-based version or other persistent mechanisms by implementing `update-entity!`, `deref`, and `resolve`. Code might need some refactoring for it to work.
+`MemoryNFS` is a in-memory implementation of persistence functions, which takes entities and stores them in memory. You can implement a disk-based version or other persistent mechanisms by implementing `update-entity!`, `deref`, `delete` and `resolve`. Code might need some refactoring for it to work.
